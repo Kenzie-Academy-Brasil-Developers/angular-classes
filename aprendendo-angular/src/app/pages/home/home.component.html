@@ -1,3 +1,13 @@
 <main>
-    <h1>{{ example }}</h1>
-</main>    
+  <h1>{{ example }}</h1>
+  <app-user-card
+    [name]="userA.name"
+    [email]="userA.email"
+    [job]="userA.job"
+  ></app-user-card>
+  <app-user-card
+    [name]="userB.name"
+    [email]="userB.email"
+    [job]="userB.job"
+  ></app-user-card>
+</main>
