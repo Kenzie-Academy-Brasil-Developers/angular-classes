@@ -2,7 +2,7 @@
   <h1>{{ example }}</h1>
   <ul>
     <app-user-card
-      *ngFor="let user of userList"
+      *ngFor="let user of getUserList()"
       [name]="user.name"
       [email]="user.email"
       [job]="user.job"
